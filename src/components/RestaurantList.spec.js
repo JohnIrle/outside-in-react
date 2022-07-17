@@ -1,4 +1,4 @@
-import RestaurantList from './RestaurantList';
+import {RestaurantList} from './RestaurantList';
 import {render, screen} from '@testing-library/react';
 
 describe('RestaurantList', () => {
