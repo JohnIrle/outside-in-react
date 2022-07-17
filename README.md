@@ -1,6 +1,11 @@
-# Getting Started with Create React App
+# opinion-ate
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+An app for tracking reviews of dishes at different restaurants.
+
+Production: https://outside-in-react-tut.netlify.app/
+
+This project was bootstrapped with
+[Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
