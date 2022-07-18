@@ -8,8 +8,6 @@ export function RestaurantList({loadRestaurants, restaurants, loading}) {
     loadRestaurants();
   }, [loadRestaurants]);
 
-  console.log(loading);
-
   return (
     <>
       {loading && <CircularProgress />}
@@ -26,6 +24,7 @@ export function RestaurantList({loadRestaurants, restaurants, loading}) {
 
 const mapStateToProps = state => ({
   restaurants: state.restaurants.records,
+  loading: state.restaurants.loading,
 });
 
 const mapDispatchToProps = {loadRestaurants};
